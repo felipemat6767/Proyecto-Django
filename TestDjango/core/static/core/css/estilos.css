@@ -1,0 +1,78 @@
+nav{
+   background-color: rgb(78, 64, 64); 
+   display: flex; 
+   justify-content: space-between;
+   align-items: center;
+   padding:12px ;
+}
+
+.elementosNav{
+    display: flex; 
+    text-decoration: none;
+    
+}
+.elementosNav img{
+   max-height: 71px;  
+}
+.listaNav{
+    display: flex; 
+    list-style: none;    
+}
+
+.listaNav li{
+    padding: 21px;  
+    color: darkolivegreen; 
+    font-size: 21px;
+    font-weight: 700;
+}
+.seccionInf{
+    display: flex;  
+    max-width: 100%;  
+    align-items: center;  
+}
+.fotoSeccionInf{
+    width: 70%;   
+}
+.fotoSeccionInf img {
+    max-width: 100%; 
+    height: 100vh;  
+} 
+.formInf{
+     margin: 0 auto;
+     width: 30%; 
+      
+} 
+.formInf h3{ 
+     
+    text-align: center;
+}
+.Form { 
+    border-radius: 20px;
+    padding: 20px;   
+} 
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], 
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #524cd1;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
