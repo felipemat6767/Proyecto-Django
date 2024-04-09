@@ -1,6 +1,4 @@
-document.getElementById('formInf').addEventListener('submit', function(event) {
-   
-    event.preventDefault();
+document.getElementById('formInf').addEventListener('submit', function(event) { 
     const nombre = document.getElementById('fname');
     const email = document.getElementById('lemail');
     const contraseña = document.getElementById('password');   
